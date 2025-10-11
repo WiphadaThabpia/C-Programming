@@ -18,7 +18,7 @@ int main() {
             snail -= down; //วันคู่ถอยหลัง
         }
 
-        printf("่Day %d = Distance %.2f Meter \n", day, snail);
+        printf("่Day %d = Distance %.2f meter \n", day, snail);
 
         if (snail >= depth) {
             printf("The snail can climb out of the well in %d days. \n", day);
@@ -28,4 +28,5 @@ int main() {
     }
     return 0;
 }
+
 
