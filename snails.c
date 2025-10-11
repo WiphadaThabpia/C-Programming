@@ -9,7 +9,7 @@ int main() {
     printf("Input Depth = ");
     scanf("%f", &depth);
     
-    printf("The total distance over 7 days is 9.68 Meter. \n");
+    printf("The total distance over 7 days is 9.68 meter. \n");
 
     while (snail < depth) {
         if (day % 2 == 1) {
@@ -28,3 +28,4 @@ int main() {
     }
     return 0;
 }
+
