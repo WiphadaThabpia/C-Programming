@@ -3,21 +3,21 @@
 int main() {
     int hour, minute;
     double hour_hand, minute_hand;
-    double result; //º≈≈—æ∏Ï°“√§”π«≥À“Õß»“
-
+    double result; //‡∏ú‡∏•‡∏•‡∏±‡∏û‡∏ò‡πå‡∏Å‡∏≤‡∏£‡∏Ñ‡∏≥‡∏ô‡∏ß‡∏ì‡∏´‡∏≤‡∏≠‡∏á‡∏®‡∏≤
+    
     printf("Enter time (hour) : ");
     scanf("%d", &hour);
     printf("Enter time (minute) : ");
     scanf("%d", &minute);
-
-    //‡¢Á¡π“∑’™ËÕß≈–30Õß»“* π“∑’À“√5¢’¥π“∑’ ‡æ◊ËÕÀ“‡≈¢∑’Ë‡¢Á¡™’È
+    
+    //‡πÄ‡∏Ç‡πá‡∏°‡∏ô‡∏≤‡∏ó‡∏µ‡∏ä‡πà‡∏≠‡∏á‡∏•‡∏∞30‡∏≠‡∏á‡∏®‡∏≤* ‡∏ô‡∏≤‡∏ó‡∏µ‡∏´‡∏≤‡∏£5‡∏Ç‡∏µ‡∏î‡∏ô‡∏≤‡∏ó‡∏µ ‡πÄ‡∏û‡∏∑‡πà‡∏≠‡∏´‡∏≤‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÄ‡∏Ç‡πá‡∏°‡∏ä‡∏µ‡πâ
     minute_hand = (minute / 5) * 30.0;
-
-    //‡¢Á¡™¡.À“√12‡≈¢™¡.*30 + ‡¢Á¡π“∑’
+    
+    //‡πÄ‡∏Ç‡πá‡∏°‡∏ä‡∏°.‡∏´‡∏≤‡∏£12‡πÄ‡∏•‡∏Ç‡∏ä‡∏°.*30 + ‡πÄ‡∏Ç‡πá‡∏°‡∏ô‡∏≤‡∏ó‡∏µ
     hour_hand = (hour % 12) * 30.0 + (minute / 60.0) * 30.0;
-
+    
     result = fabs(hour_hand - minute_hand);
-
+        
     printf("At %02d:%02d The angle between the clock hands is = %.1f degrees.\n",hour, minute, result);
     return 0;
 }
