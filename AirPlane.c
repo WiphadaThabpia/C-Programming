@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
-    double A; //จำนวนล้อทั้งหมด(total wheels)
-    double B; //พื้นที่แต่ละล้อสัมผัสพื้น(contact area)
-    double F; //น้ำหนักเครื่องบิน(aircraft weight)
-    double P; //ความดันแต่ละล้อ(pressure)
+    double A; //เธเธณเธเธงเธเธฅเนเธญเธ—เธฑเนเธเธซเธกเธ”(total wheels)
+    double B; //เธเธทเนเธเธ—เธตเนเนเธ•เนเธฅเธฐเธฅเนเธญเธชเธฑเธกเธเธฑเธชเธเธทเนเธ(contact area)
+    double F; //เธเนเธณเธซเธเธฑเธเน€เธเธฃเธทเนเธญเธเธเธดเธ(aircraft weight)
+    double P; //เธเธงเธฒเธกเธ”เธฑเธเนเธ•เนเธฅเธฐเธฅเนเธญ(pressure)
     
     printf("=====Boeing 747-400=====\n");
     
@@ -16,7 +16,7 @@ int main() {
     printf("Enter Aircraft Weight(F): ");
     scanf("%lf", &F);
     
-    //สูตรคำนวณความดันล้อต่อหนึ่งล้อ
+    //เธชเธนเธ•เธฃเธเธณเธเธงเธ“เธเธงเธฒเธกเธ”เธฑเธเธฅเนเธญเธ•เนเธญเธซเธเธถเนเธเธฅเนเธญ
     P = F / (A * B);
     
     printf("PressureOfEachWheel = %.2lf\n", P);
