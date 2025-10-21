@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 int main() {
     int numTime[9] = {0}; // นับจำนวนครั้งที่เดินเริ่มต้นที่ 0
     int i;  // นับรอบว่าเดินทิศนึงกี่รอบ
@@ -25,3 +24,4 @@ int main() {
 
     return 0;
 }
+
