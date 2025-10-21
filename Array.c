@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 int main() {
     int A[10][10], B[10]; //A มี100ช่อง , B มี10ช่อง
     int i, j, k; //กำหนดตัวนับในloop
@@ -56,3 +55,4 @@ int main() {
     }
     return 0;
 }
+
