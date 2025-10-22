@@ -54,4 +54,3 @@ int main() {
     printf("พื้นที่ส่วนที่ไม่ซ้อนทับกัน = %.2f \n",areaDiff);
     return 0;
 }
-
