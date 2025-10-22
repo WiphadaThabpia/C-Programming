@@ -30,21 +30,21 @@ int main() {
         sum = 0;
         count = 0;
         if(i == 0) {  //ดินแดนที่1(แถว0-3)
-            for(int k=0; k<=3; k++)
+            for(k=0; k<=3; k++)
                 for(j=0; j<10; j++){
                     sum += A[k][j];
                     count++;
                 }
         }
         else if(i == 1) {  // ดินแดนที่2(แถว4-6)
-            for(int k=4; k<=6; k++)
+            for(k=4; k<=6; k++)
                 for(j=0; j<10; j++) {
                     sum += A[k][j];
                     count++;
                 }
         }
         else {  // ดินแดนที่3(แถว7-9)
-            for(int k=7; k<=9; k++)
+            for(k=7; k<=9; k++)
                 for(j=0; j<10; j++) {
                     sum += A[k][j];
                     count++;
@@ -55,4 +55,3 @@ int main() {
     }
     return 0;
 }
-
