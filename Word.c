@@ -5,16 +5,13 @@ int main() {
     char wordToFind[50];  // คำที่ต้องการหา
     int position;
 
-    // รับข้อความจากผู้ใช้
-    printf("ใส่ข้อความ: ");
+    printf("ใส่ข้อความ: ");   // รับข้อความจากผู้ใช้
     scanf("%s", text);
 
-    // รับคำที่ต้องการหา
-    printf("ใส่คำที่ต้องการหา: ");
+    printf("ใส่คำที่ต้องการหา: ");  //รับคำที่ต้องการหา
     scanf("%s", wordToFind);
 
-    // ใช้ strstr() เพื่อค้นหาคำย่อยในข้อความ
-    char *word = strstr(text, wordToFind);
+    char *word = strstr(text, wordToFind);  // ใช้ strstr() เพื่อค้นหาคำย่อยในข้อความ
 
     if (word != NULL) {
         int position = (word - text) + 1; //หาตำแหน่งเริ่มต้น (เริ่มจาก 1)
